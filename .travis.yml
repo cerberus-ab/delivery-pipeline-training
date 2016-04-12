@@ -1,3 +1,7 @@
 language: node_js
 node_js:
   - "5"
+services:
+  - postgresql
+notifications:
+  slack: devops-training-spb:PXr1hHRtdwqNmucS1mOYrn6a
