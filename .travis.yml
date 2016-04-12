@@ -3,5 +3,9 @@ node_js:
   - "5"
 services:
   - postgresql
+addons:
+  postgresql: "9.4"
+before_script:
+  - psql -U crudtest -c 'create database crudtest;'
 notifications:
   slack: devops-training-spb:PXr1hHRtdwqNmucS1mOYrn6a
