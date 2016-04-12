@@ -3,3 +3,4 @@ node_modules
 *.log
 *.retry
 newrelic_agent.log
+secret.txt
